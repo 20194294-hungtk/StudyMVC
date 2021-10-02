@@ -26,6 +26,11 @@ namespace StudyWebAppMVC.Models
             return employee;
         }
 
+        public Employee Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Employee> GetAllEmployee()
         {
             return _employeeList;
@@ -35,6 +40,10 @@ namespace StudyWebAppMVC.Models
         {
             return _employeeList.FirstOrDefault(e => e.Id == Id);
         }
-    
+
+        public Employee Update(Employee employeeChanges)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -9,7 +9,8 @@ namespace StudyWebAppMVC.Models
     {
         Employee GetEmployee(int Id);
         IEnumerable<Employee> GetAllEmployee();
-
+        Employee Update(Employee employeeChanges);
         Employee Add(Employee employee);
+        Employee Delete(int id);
     }
 }
